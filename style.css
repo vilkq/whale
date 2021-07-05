@@ -1,0 +1,237 @@
+@import "font/opensans.css";
+
+body {
+    color: #000000;
+    background: #eceff4;
+    font-family: 'Open Sans';
+    font-size: 12px;
+    margin: 4% 20% 0 20%;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+hr {
+    height: 0px;
+    border: 0px;
+    border-bottom: 1px solid #eee;
+}
+
+#logout {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    color: #000;
+    background: #eceff4;
+    outline: none;
+    height: 16px;
+    width: 70px;
+    padding: 4px 0 6px 0;
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Open Sans';
+}
+
+#back_from_update {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    color: #000;
+    background: #eceff4;
+    outline: none;
+    float: right;
+    height: 16px;
+    width: 70px;
+    padding: 4px 0 6px 0;
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Open Sans';
+}
+
+#login_button {
+    border: 1px solid #000;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    color: #000;
+    background: #fff;
+    outline: none;
+    height: 32px;
+    width: 100px;
+    padding: 5px 0 6px 0;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Open Sans';
+}
+
+#view_link {
+    padding-top: 70px;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Open Sans';
+}
+
+#view_back {
+    font-family: 'Open Sans';
+    font-size: 10px;
+    padding: 2px 0 14px 24px;
+}
+
+#obj_box_insert {
+    width: 400px;
+    height: 340px;
+    background: #fff;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    margin: auto auto;
+}
+
+#obj_title_insert {
+    color: #333;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 600;
+    padding: 19px 0 14px 24px;
+}
+
+#name {
+    border: 1px solid #eee;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    background: #ffffff !important;
+    outline: none;
+    height: 16px;
+    width: 340px;
+    margin: 15px 0 4px 24px;
+    padding: 11px 0 11px 14px;
+    color: #333;
+    font-size: 14px;
+    font-family: 'Open Sans';
+}
+
+#description {
+    border: 1px solid #eee;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    background: #ffffff !important;
+    outline: none;
+    height: 16px;
+    width: 340px;
+    margin: 6px 0 0 24px;
+    padding: 11px 0 11px 14px;
+    color: #333;
+    font-size: 14px;
+    font-family: 'Open Sans';
+}
+
+#level {
+    border: 1px solid #eee;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    background: #ffffff !important;
+    outline: none;
+    height: 16px;
+    width: 340px;
+    margin: 6px 0 0 24px;
+    padding: 11px 0 11px 14px;
+    color: #333;
+    font-size: 14px;
+    font-family: 'Open Sans';
+}
+
+#ancestor {
+    border: 1px solid #eee;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    background: #ffffff !important;
+    outline: none;
+    height: 44px;
+    width: 356px;
+    margin: 6px 0 0 24px;
+    padding: 11px 0 11px 14px;
+    color: #333;
+    font-size: 14px;
+    font-family: 'Open Sans';
+}
+
+#obj_insert_button {
+    border: 1px solid #eee;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    color: #fff;
+    background: #4d59a1;
+    outline: none;
+    height: 42px;
+    width: 97px;
+    margin: 14px 0 12px 282px;
+    padding: 6px 0 6px 2px;
+    font-size: 14px;
+    font-family: 'Open Sans';
+}
+
+#obj_box {
+    width: auto;
+    background: #fff;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    margin: 20px auto auto auto;
+    padding-bottom: 7px;
+}
+
+#obj_title {
+    color: #333;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 600;
+    padding: 21px 0 0 24px;
+}
+
+#obj_title_description {
+    color: #777;
+    font-family: 'Open Sans';
+    font-size: 10px;
+    padding-left: 24px;
+}
+
+#obj_name {
+    color: #333;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    padding: 9px 0 0 24px;
+}
+
+#obj_description {
+    color: #999;
+    font-family: 'Open Sans';
+    font-size: 13px;
+    padding: 0 0 9px 24px;
+}
+
+#del {
+    font-size: 16px;
+    padding: 4px 0 0 8px;
+    display: inline-block;
+}
